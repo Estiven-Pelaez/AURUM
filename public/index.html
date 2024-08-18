@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <link rel="stylesheet" href="/css/nav.css">
+    <title>AURUM</title>
+
+    
+</head>
+<body class="min-h-screen">
+    <header id="hero">
+        <ul id="nav-menu" class="md:pt-5 md:text-2xl md:justify-end xl:p-5 xl:justify-end xl: xl:text-2xl bg-yellow-600 sm:bg-white sm:bg-opacity-0 bg-opacity-95 absolute z-10 md:static sm:text-center md:flex w-screen text-center md:items-center hidden md:w-auto md:py-0 py-4 md:pl-0 top-10">
+            <li><a href="#" class="relative z-10 my-6 md:my-0 text-ls mx-4 font-medium text-white xl:hover:text-yellow-600 md:hover:text-yellow-600">Acerca de AURUM</a></li>
+            <li><a href="#" class="relative z-10 my-6 md:my-0 text-ls mx-4 font-medium text-white xl:hover:text-yellow-600 md:hover:text-yellow-600">Compras</a></li>
+            <li><a href="#" class="relative z-10 my-6 md:my-0 text-ls mx-4 font-medium text-white xl:hover:text-yellow-600 md:hover:text-yellow-600">Noticias</a></li>
+        </ul>
+        <nav class="sm:bg-white sm:bg-opacity-0 bg-yellow-600 z-10 p-2 relative flex justify-between items-center md:p-5">
+
+            <span id="menuHamburguesa" class="relative z-10 text-white text-3xl cursor-pointer mx-2 md:hidden block" onclick="toggleMenu()">
+                <ion-icon name="menu" id="menu-icon"></ion-icon>
+            </span>
+
+            <h1 class="md:-mt-16 md:text-3xl xl:-mt-24 xl:text-5xl relative z-10 text-3xl font-semibold text-white ">AURUM</h1>
+
+        </nav>
+
+            <video muted autoplay loop>
+                <source src="/mp4/bg-video2.mp4" type="video/mp4">
+            </video>
+
+    </header>
+
+    <main class="mt-72 mx-10 md:mt-[40rem] xl:mt-[70rem]">
+        <h2 class="text-3xl font-medium text-gray-700 md:text-center">Manejamos tus marcas favoritas</h2>
+        <br>
+        <p class="text-gray-800 md:text-xl">En AURUM, nos enorgullecemos de ofrecer una amplia selección de relojes de las marcas favoritas de los colombianos. Desde relojes casuales y deportivos, ideales para el día a día y actividades al aire libre, hasta los modelos más elegantes y finos, perfectos para ocasiones especiales y para realzar tu estilo personal. <br>Nuestro compromiso es ayudarte a encontrar el reloj perfecto que refleje la mejor versión de ti, combinando calidad, estilo y funcionalidad. Ya sea que busques un reloj robusto para acompañarte en tus aventuras o una pieza sofisticada para complementar tu atuendo de gala, en AURUM tenemos lo que necesitas.</p>
+        <div class="flex justify-center items-center m-5 xl:m-10">
+            <button class="bg-blue-600 px-10 py-3 rounded text-white font-semibold hover:bg-blue-900 md:px-16 md:py-5 md:text-2xl">
+                <a href="/public/prueba.html">Catalogo</a>
+            </button>
+        </div>
+    </main>
+
+
+    <section class=" xl:w-full xl:bg-black">
+        <img class="hidden xl:block w-full object-cover" src="/img/wallpaper_2.jpg" alt="img background">
+        <div>
+            <img class="md:w-full xl:hidden" src="/img/background_lady.jpeg" alt="background">
+        </div>
+        <div class="ml-auto mr-auto flex items-center justify-center sm:mt--5 md:w-full md:bg-gray-950 md:p-16 xl:bg-black">
+            <div class=""> 
+                <form class="bg-gray-950 px-8 pt-6 pb-8 mb-4 xl:rounded-xl">
+                    <p class="text-white font-semibold py-3 text-center md:p-5 md:m-5">Suscribete a nuestro Newsletter, para conocer ofertas exclusivas y todos los nuevos productos del mercado!!</p>
+                    <div class="mb-4">
+                        <div class="grid grid-flow-row sm:grid-flow-col gap-3 ">
+                            <div class="sm:col-span-4 justify-center md:min-w-10">
+                                <label class="block text-white text-sm font-bold mb-2" for="nya">Nombres:</label>
+                                <input class="shadow appearance-none border rounded w-full py-2 px-3 bg-gray-400 text-gray-100 leading-tight focus:outline-none focus:shadow-outline" type="text" name="nya" id="nya">
+                            </div>
+                            <div class="sm:col-span-4 justify-center md:min-w-10">
+                                <label class="block text-white text-sm font-bold mb-2" for="nya">Email:</label>
+                                <input class="shadow appearance-none border rounded w-full py-2 px-3 bg-gray-400 text-gray-100 leading-tight focus:outline-none focus:shadow-outline" type="email" name="nya" id="nya">
+                            </div>
+                            <div class="flex items-center justify-center pt-3">
+                                <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline">Suscribirse</button>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </div>
+            
+        </div>
+    </section>
+
+    <footer>
+        <div class="bg-yellow-600">
+            <div class="flex flex-wrap justify-around bg-white">
+                <img class="xl:w-40 w-32 md:w-56 md:h-32 md:m-7" src="/img/cartier_logo.png" alt="img logo">
+                <img class="xl:w-40 w-32 md:w-56" src="/img/Casio_Logo.png" alt="img logo">
+                <img class="xl:w-40 w-32 md:w-56" src="/img/g-shock_logo.png" alt="img logo">
+                <img class="xl:w-40 w-32 md:w-56" src="/img/longines_logo.png" alt="img logo">
+                <img class="xl:w-40 w-32 md:w-56" src="/img/omega_logo.png" alt="img logo">
+                <img class="xl:w-40 w-32 md:w-56" src="/img/orient_logo.png" alt="img logo">
+                <img class="xl:w-40 w-44 md:w-56" src="/img/richard_mille_logo.png" alt="img logo">
+            </div>
+            <div class="flex justify-around py-5 px-5 bottom-0 w-full">
+                <div class="">
+                    <div class="xl:hover:text-white xl:cursor-pointer font-semibold text-gray-900"><i class="fa-brands fa-whatsapp"></i> WhatsApp</div>
+                    <div class="xl:hover:text-white xl:cursor-pointer font-semibold text-gray-900"><i class="fa-brands fa-instagram"></i> Instagram</div>
+                    <div class="xl:hover:text-white xl:cursor-pointer font-semibold text-gray-900"><i class="fa-brands fab fa-twitter"></i> Twitter</div>
+                </div>
+                <ul class="list-disc">
+                    <li class="xl:hover:text-white xl:cursor-pointer font-semibold text-gray-900">Puntos de ventas</li>
+                    <li class="xl:hover:text-white xl:cursor-pointer font-semibold text-gray-900">Ideas para regalos</li>
+                    <li class="xl:hover:text-white xl:cursor-pointer font-semibold text-gray-900">Atencion al cliente</li>
+                </ul>
+            </div>
+            <p class="p-3 text-xs text-gray-700 text-center xl:p-3">Copyright &copy; AURUM SA. Reservados todos los derechos.</p>
+        </div>
+    </footer>
+
+    <script>
+        function toggleMenu() {
+            const navMenu = document.getElementById('nav-menu');
+            const menuIcon = document.getElementById('menu-icon');
+            navMenu.classList.toggle('hidden');
+            if (menuIcon.name === 'menu') {
+                menuIcon.name = 'close';
+            } else {
+                menuIcon.name = 'menu';
+            }
+        }
+    </script>
+</body>
+</html>
