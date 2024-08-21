@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <title>AURUM / PAGOS</title>
+    <script src="https://cdn.tailwindcss.com"></script> 
+    <script src="https://cdn.tailwindcss.com?plugins=forms,typography,aspect-ratio,line-clamp,container-queries"></script>
+    <link rel="stylesheet" href="">
+</head>
+<body class="bg-gray-200">
+  <main class="container mx-auto xl:w-1/2 bg-white">
+    <div>
+      <div class="w-full text-center py-2 xl:flex justify-around -mb-10 pt-12">
+        <h1 class="text-2xl font-bold text-gray-700">Tarjeta de credito o debito</h1>
+        <div>
+          <i class="fa-brands fa-cc-mastercard text-6xl text-orange-600"></i>
+          <i class="fa-brands fab fa-cc-visa text-6xl text-orange-600"></i>
+          <i class="fa-brands fab fab fa-cc-paypal text-6xl text-orange-600"></i>
+        </div>
+      </div>
+      <form action="" class="xl:mx-20 mx-10 flex flex-col gap-2 py-16 mt-2">
+        <input class="w-full" type="number" name="numero tarjeta" placeholder="Numero de documento de identidad">
+        <input class="w-full" type="text" name="name" placeholder="Nombre del titular">
+        <input class="w-full" type="number" name="name" placeholder="Numero de la tarjeta">
+        <div class="mx-auto">
+          <input class="w-28" type="text" name="name" placeholder="MM / AA">
+          <input class="w-28" type="text" name="name" placeholder="CVV">
+        </div>
+        <input class="justify-center w-36 xl:w-56 mx-auto" type="number" name="number" min="1" max="36" placeholder="Numero de cuotas">
+        <button type="submit" class=" bg-blue-800 mx-auto mt-8 w-20 py-1 rounded text-white shadow-xl hover:bg-blue-900">Pagar</button>
+      </form>
+    </div>
+  </main>
+
+  <footer class="absolute bottom-0 w-full">
+    <div class="bg-gray-900 ">
+      <div class="flex justify-around py-5 px-5 bottom-0 ">
+        <div class="">
+          <div class="xl:hover:text-white xl:cursor-pointer font-semibold text-yellow-600"><i class="fa-brands fa-whatsapp"></i> WhatsApp</div>
+          <div class="xl:hover:text-white xl:cursor-pointer font-semibold text-yellow-600"><i class="fa-brands fa-instagram"></i> Instagram</div>
+          <div class="xl:hover:text-white xl:cursor-pointer font-semibold text-yellow-600"><i class="fa-brands fab fa-twitter"></i> Twitter</div>
+        </div>
+        <ul class="list-disc">
+          <li class="xl:hover:text-white xl:cursor-pointer font-semibold text-yellow-600">Puntos de ventas</li>
+          <li class="xl:hover:text-white xl:cursor-pointer font-semibold text-yellow-600">Ideas para regalos</li>
+          <li class="xl:hover:text-white xl:cursor-pointer font-semibold text-yellow-600">Atencion al cliente</li>
+      </ul>
+    </div>
+    <p class="p-3 text-xs text-gray-600 text-center xl:p-3">Copyright &copy; AURUM SA. Reservados todos los derechos.</p>
+    </div>
+  </footer>
+</body>
+
+            <!-- JavaScript -->
+  <script>
+    import { defineCustomElements } from 'ionicons/dist/loader';
+    defineCustomElements(window);
+  </script>
+</html>

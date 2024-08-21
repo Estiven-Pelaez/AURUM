@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AURUM / PAGOS</title>
+    <script src="https://cdn.tailwindcss.com"></script> 
+    <script src="https://cdn.tailwindcss.com?plugins=forms,typography,aspect-ratio,line-clamp,container-queries"></script>
+    <link rel="stylesheet" href="">
+</head>
+<body class="container mx-auto bg-gray-200 xl:w-[50rem]">
+  <header>
+
+  </header>
+  
+  <main>
+    <div class="mb-52">
+      <div class="w-full text-center py-2 bg-yellow-600 text-gray-200 xl:absolute xl:left-0 xl:top-0 shadow-lg">
+        <h1 class="text-xl font-semi-bold my-3">Datos de envio</h1> 
+      </div>
+      <form action="" class="mx-20 flex flex-col gap-2 mt-28">
+        <input class="w-full rounded" type="text" name="name" placeholder="Nombre" required>
+        <input class="w-full rounded" type="text" name="name" placeholder="Apellido" required>
+        <select name="Departamento" id="" required>
+          <option value="">Departamento</option>
+          <option value="amazonas">Amazonas</option>
+          <option value="antioquia">Antioquia</option>
+          <option value="arauca">Arauca</option>
+          <option value="atlantico">Atlántico</option>
+          <option value="bolivar">Bolívar</option>
+          <option value="boyaca">Boyacá</option>
+          <option value="caldas">Caldas</option>
+          <option value="caqueta">Caquetá</option>
+          <option value="casanare">Casanare</option>
+          <option value="cauca">Cauca</option>
+          <option value="cesar">Cesar</option>
+          <option value="choco">Chocó</option>
+          <option value="cordoba">Córdoba</option>
+          <option value="cundinamarca">Cundinamarca</option>
+          <option value="guainia">Guainía</option>
+          <option value="guaviare">Guaviare</option>
+          <option value="huila">Huila</option>
+          <option value="la_guajira">La Guajira</option>
+          <option value="magdalena">Magdalena</option>
+          <option value="meta">Meta</option>
+          <option value="narino">Nariño</option>
+          <option value="norte_de_santander">Norte de Santander</option>
+          <option value="putumayo">Putumayo</option>
+          <option value="quindio">Quindío</option>
+          <option value="risaralda">Risaralda</option>
+          <option value="san_andres">San Andrés y Providencia</option>
+          <option value="santander">Santander</option>
+          <option value="sucre">Sucre</option>
+          <option value="tolima">Tolima</option>
+          <option value="valle_del_cauca">Valle del Cauca</option>
+          <option value="vaupes">Vaupés</option>
+          <option value="vichada">Vichada</option>
+        </select>
+        <input class="w-full rounded" type="text" name="name" placeholder="Ciudad" required>
+        <input class="w-full rounded" type="text" name="name" placeholder="Direcion" required>
+        <input class="w-full rounded" type="text" name="tel" maxlength="10" inputmode="numeric" pattern="[0-9]*" placeholder="Numero de telefono: +(57)" required>
+        <textarea class="resize-none rounded" name="text" id="" rows="5" required placeholder="Indicaciones"></textarea>
+        <select class="rounded" name="opcion" id="">
+          <option value="">A que hora desea su entrega</option>
+          <option value="Opcion1">Entre mañana y medio dia</option>
+          <option value="Opcion2">Entre medio dia y tarde</option>
+          <option value="Opcion3">Todo el dia</option>
+        </select>
+        <button class="bg-blue-700 w-20 rounded text-gray-200 py-1 mx-auto mt-3 hover:bg-blue-900" type="submit"><a href="/public/pasarelaPago.html">Enviar</a></button>
+      </form>
+    </div>
+  </main>
+</body>
+</script>
+</html>
