@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=|, initial-scale=1.0">
+
+    <script src="https://cdn.tailwindcss.com"></script> 
+    <title>Document</title>
+</head>
+<body class="bg-gray-200">
+
+    <form action="" id="create" class="container w-1/2 mx-auto mt-5 rounded-xl bg-white shadow-2xl">
+        <div class="p-3 flex flex-col gap-2 border">
+            <label class="text-gray-700 font-semibold p-1" for="ref">Referencia</label>
+            <input class="border bg-gray-100" name="ref" type="text" id="ref">
+
+            <label class="text-gray-700 font-semibold p-1" for="price">Precio</label>
+            <input class="border bg-gray-100" name="price" type="number" id="price">
+
+            <label class="text-gray-700 font-semibold p-1" for="description">Descripcion</label>
+            <textarea class="border bg-gray-100 resize-none" name="description" name="" id="description" cols="20" rows="3"></textarea>
+
+            <button class="bg-blue-700 text-gray-100 py-1 w-20 mx-auto rounded-md hover:bg-blue-500 shadow-xl" type="button" onclick="createProduct()">Crear</button>
+        </div>
+    </form>
+
+
+    <div id="product">
+        <h2 id="referencia"></h2>
+        <h3 id="precio"></h3>
+    </div>
+
+
+    <script src="/js/script.js"></script>
+    <script>
+        getProducts();
+    </script>
+</body>
+</html>
