@@ -13,9 +13,12 @@
 </head>
 <body class="bg-gray-200">
   <main class="container mx-auto xl:w-1/2 bg-white">
+    <div class="w-full text-center py-1 xl:flex justify-around pt-12">
+      <p id="price-to-pay" class="text-sm font-bold text-gray-400">Total a cancelar: $</p>
+    </div>
     <div>
-      <div class="w-full text-center py-2 xl:flex justify-around -mb-10 pt-12">
-        <h1 class="text-2xl font-bold text-gray-700">Tarjeta de credito o debito</h1>
+      <div class="w-full text-center py-2 xl:flex justify-around -mb-10 pt-5">
+        <h1  class="text-2xl font-bold text-gray-700">Tarjeta de credito o debito</h1>
         <div>
           <i class="fa-brands fa-cc-mastercard text-6xl text-orange-600"></i>
           <i class="fa-brands fab fa-cc-visa text-6xl text-orange-600"></i>
@@ -53,11 +56,12 @@
     <p class="p-3 text-xs text-gray-600 text-center xl:p-3">Copyright &copy; AURUM SA. Reservados todos los derechos.</p>
     </div>
   </footer>
-</body>
-
             <!-- JavaScript -->
   <script>
-    import { defineCustomElements } from 'ionicons/dist/loader';
-    defineCustomElements(window);
+    // import { defineCustomElements } from 'ionicons/dist/loader';
+    // defineCustomElements(window);
+    let initialValue = 0;
+    document.getElementById('price-to-pay').innerHTML+= JSON.parse(localStorage.getItem('products')).reduce((acumulador,product) => {return acumulador + product.price},0); 
   </script>
+</body>
 </html>

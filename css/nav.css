@@ -14,3 +14,7 @@ video {
     object-fit: cover;
 }
 
+#overlay {
+    background: #fafafa10;
+    backdrop-filter: blur(.6rem);
+}

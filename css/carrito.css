@@ -1,0 +1,38 @@
+#carrito{
+    width: 5rem;
+    position: fixed;
+    right: 20px;
+    top: 50%;
+    border-radius: 10px;
+    font-size: 2em;
+    background-color: #ecf3fa;
+    height: 50px;
+    width: 50px;
+    text-align: center;
+    transition: .5s;
+
+}
+
+#carrrito #icon {
+    margin-top: 0;
+}
+
+
+
+#carrito:hover{
+    cursor: pointer;
+    height: 100%;
+    top: 0;
+    right: 0;
+    width: 200px;
+    border-radius: 0;
+}
+
+.scrollbar-hide::-webkit-scrollbar {
+    display: none; 
+  }
+  
+  .scrollbar-hide {
+    -ms-overflow-style: none;  
+    scrollbar-width: none;
+  }

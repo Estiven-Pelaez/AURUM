@@ -1,0 +1,60 @@
+/* #contenedor {
+    display: flex;
+    max-width: 30em;
+    max-height: 18em;
+}
+
+#cont-img {
+    width: 12em;
+}
+
+
+#cont-2 {
+    background-color: rgb(255, 255, 255);
+    padding: 30px;
+    border-radius: 5px;
+}
+#cont-2 h2 {
+    font-size: x-large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    color: rgb(65, 65, 65);
+}
+#cont-2 p {
+    text-align: center;
+    padding: 3px;
+    color: rgb(119, 119, 119);
+    font-weight: bold;   
+}
+
+
+#precio {
+    text-align: center;
+    color: rgb(100, 100, 100);
+    font-weight: bold;   
+}
+
+
+#cont-3 {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+}
+#cont-3 button {
+    background: #ce9211;
+    padding: 8px;
+    border-radius: 2px;
+    color: white;
+}
+#icono {
+    color: #ce9211;
+    font-size: xx-large;
+}
+
+#cont-3 button:hover {
+    background: #a57306;
+}
+#icono:hover {
+    color: #a57306;
+    cursor: pointer;
+} */
