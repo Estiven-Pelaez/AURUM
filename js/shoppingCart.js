@@ -137,8 +137,8 @@ const localStorageProducts = JSON.parse(localStorage.getItem('products'));
 
 function loadProducts(productsList) {
   productsList.forEach((product) => {
-    document.getElementById('products-section').innerHTML += `<div class="item w-40 xl:flex xl:w-[33rem] xl:h-[18rem]">
-      <img class="rounded-t-md  h-40 xl:h-72 xl:rounded-s-md shadow-lg" src="${product.img}" alt="img reloj">
+    document.getElementById('products-section').innerHTML += `<div class="item w-40 xl:flex-row flex-col flex xl:w-[33rem] xl:h-[18rem]">
+      <img class=" rounded-t-md  h-44 xl:h-72 xl:rounded-s-md xl:shadow-lg md:shadow-lg" src="${product.img}" alt="img reloj">
       <div class="rounded bg-white p-3 shadow-lg xl:rounded-e-md flex flex-col justify-center">
         <h2 class="xl:mt-5 xl:text-2xl xl:font-bold text-center font-semibold text-gray-700 uppercase text-xs">${product.name}</h2>
         <p class="xl:font-semibold xl:inline-block hidden text-center m-2 text-gray-700 leading-snug">${product.description}</p>
